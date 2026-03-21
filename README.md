@@ -38,6 +38,11 @@ The current public work proves the earliest part of the thesis:
 
 This repository is the dedicated home for the flagship architecture and docs layer.
 
+For earlier implementation-heavy public work, see:
+
+- [BestWay](https://github.com/hrshitkunwar-tech/BestWay) for early ScreenSense and module work
+- [mvp](https://github.com/hrshitkunwar-tech/mvp) for the earlier browser-extension proof of concept
+
 ## Technical Direction
 
 Navigator is intentionally vector-light, not vector-first.
