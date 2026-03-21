@@ -47,8 +47,8 @@ For the current public demo path, see:
 
 For earlier implementation-heavy public work, see:
 
-- [BestWay](https://github.com/hrshitkunwar-tech/BestWay) for early ScreenSense and module work
 - [mvp](https://github.com/hrshitkunwar-tech/mvp) for the earlier browser-extension proof of concept
+- internal Navigator Lab research repos for early ScreenSense and module work
 
 ## Technical Direction
 
