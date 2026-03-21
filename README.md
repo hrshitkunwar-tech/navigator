@@ -2,6 +2,8 @@
 
 AI execution layer for software interfaces.
 
+> Navigator is the thesis repo for **Navigator Lab**: a portfolio of products exploring UI perception, reasoning-state telemetry, autonomous execution, and culture-aware matching.
+
 Navigator is a system for understanding live SaaS interfaces, retrieving the right procedural context, planning multi-step actions, and executing them with verification. The core belief is simple: AI should not stop at suggestions when the interface itself is observable and actionable.
 
 ## The Problem
@@ -38,6 +40,11 @@ The current public work proves the earliest part of the thesis:
 
 This repository is the dedicated home for the flagship architecture and docs layer.
 
+For the current public demo path, see:
+
+- [job](https://github.com/hrshitkunwar-tech/job) for CareerAgent, a manifesto-aware matcher with autonomous execution
+- internal Navigator Lab demo surfaces for visual reasoning playback and operator control-plane views
+
 For earlier implementation-heavy public work, see:
 
 - [BestWay](https://github.com/hrshitkunwar-tech/BestWay) for early ScreenSense and module work
@@ -71,6 +78,7 @@ As implementation expands, this repo is intended to hold the canonical public ve
 1. [Architecture](./docs/ARCHITECTURE.md)
 2. [Technical Decisions](./docs/TECHNICAL_DECISIONS.md)
 3. [Benchmarks](./docs/BENCHMARKS.md)
+4. Then the live demos in [job](https://github.com/hrshitkunwar-tech/job) → [outreach](https://github.com/hrshitkunwar-tech/outreach)
 
 ## Why This Repo Matters
 
