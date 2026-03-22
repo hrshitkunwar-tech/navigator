@@ -35,20 +35,20 @@ The goal is not “chat with software.” The goal is “help software get used 
 The current public work proves the earliest part of the thesis:
 
 - ScreenSense-style perception work exists and has been tested in isolation
-- the MVP validated browser-native guidance, pattern matching, and orchestration
 - architecture, benchmarks, and technical decisions are documented in detail
+- three public experiments demonstrate different layers of the system
 
 This repository is the dedicated home for the flagship architecture and docs layer.
 
-For the current public demo path, see:
+## Running Today
 
-- [job](https://github.com/hrshitkunwar-tech/job) for CareerAgent, a manifesto-aware matcher with autonomous execution
-- internal Navigator Lab demo surfaces for visual reasoning playback and operator control-plane views
+Three public experiments prove different layers of the thesis:
 
-For earlier implementation-heavy public work, see:
-
-- [mvp](https://github.com/hrshitkunwar-tech/mvp) for the earlier browser-extension proof of concept
-- internal Navigator Lab research repos for early ScreenSense and module work
+| Experiment | What it proves | Repo |
+|---|---|---|
+| [VisionGuide](https://github.com/hrshitkunwar-tech/VisionGuide) | Screenshot → Gemini → real-time guidance overlay | Perception layer |
+| [ZoneGuide](https://github.com/hrshitkunwar-tech/zoneguide) | DOM recording → replay, zero tooling | Recording + replay |
+| [job](https://github.com/hrshitkunwar-tech/job) | Scoring → tailoring → auto-apply | Applied execution |
 
 ## Backend Experiments
 
@@ -91,8 +91,18 @@ navigator/
 1. [Architecture](./docs/ARCHITECTURE.md)
 2. [Technical Decisions](./docs/TECHNICAL_DECISIONS.md)
 3. [Benchmarks](./docs/BENCHMARKS.md)
-4. Then the live demos in [job](https://github.com/hrshitkunwar-tech/job) → [outreach](https://github.com/hrshitkunwar-tech/outreach)
+4. Then the live experiments: [VisionGuide](https://github.com/hrshitkunwar-tech/VisionGuide) → [ZoneGuide](https://github.com/hrshitkunwar-tech/zoneguide) → [job](https://github.com/hrshitkunwar-tech/job)
 
 ## Why This Repo Matters
 
 This repo is the clearest expression of the long-term thesis behind the wider project ecosystem: software interaction infrastructure, not just another AI wrapper.
+
+## Navigator Lab
+
+| Repo | Layer | What it does |
+|---|---|---|
+| [navigator](https://github.com/hrshitkunwar-tech/navigator) | Thesis | 5-layer architecture for AI execution on software interfaces |
+| [VisionGuide](https://github.com/hrshitkunwar-tech/VisionGuide) | Perception | Screenshot → Gemini vision → real-time UI guidance |
+| [zoneguide](https://github.com/hrshitkunwar-tech/zoneguide) | Recording | DOM interaction capture and replay, zero dependencies |
+| [job](https://github.com/hrshitkunwar-tech/job) | Applied | CareerAgent: score → tailor → apply, local-first |
+| [saas-atlas](https://github.com/hrshitkunwar-tech/saas-atlas) | Data | Searchable directory of 200+ SaaS tools |
