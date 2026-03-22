@@ -50,6 +50,18 @@ For earlier implementation-heavy public work, see:
 - [mvp](https://github.com/hrshitkunwar-tech/mvp) for the earlier browser-extension proof of concept
 - internal Navigator Lab research repos for early ScreenSense and module work
 
+## Backend Experiments
+
+Three parallel approaches to the Navigator thesis. Same problem, different implementation surfaces.
+
+| Experiment | Approach | Stack |
+|---|---|---|
+| **BestWay** (private) | Chrome MV3 · TypeScript monorepo · ScreenSense perception | TypeScript · Vitest · Zod · Chrome APIs |
+| **navigator-backend** (private) | Convex serverless · CLaRa bench · AppIdeasLab | Convex · TypeScript |
+| [**anti-gravity**](https://github.com/hrshitkunwar-tech/anti-gravity) | Zero tooling — raw browser APIs | vanilla JS · HTML · CSS · Chrome MV3 |
+
+The question each experiment answers is slightly different. BestWay answers: what does the full production implementation look like? navigator-backend answers: what does the cloud-native backend look like? anti-gravity answers: how far can you get with nothing?
+
 ## Technical Direction
 
 Navigator is intentionally vector-light, not vector-first.
