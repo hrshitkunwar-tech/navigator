@@ -58,9 +58,9 @@ Three parallel approaches to the Navigator thesis. Same problem, different imple
 |---|---|---|
 | **BestWay** (private) | Chrome MV3 · TypeScript monorepo · ScreenSense perception | TypeScript · Vitest · Zod · Chrome APIs |
 | **navigator-backend** (private) | Convex serverless · CLaRa bench · AppIdeasLab | Convex · TypeScript |
-| [**anti-gravity**](https://github.com/hrshitkunwar-tech/anti-gravity) | Zero tooling — raw browser APIs | vanilla JS · HTML · CSS · Chrome MV3 |
+| [**ZoneGuide**](https://github.com/hrshitkunwar-tech/zoneguide) | Zero tooling — raw browser APIs | vanilla JS · HTML · CSS · Chrome MV3 |
 
-The question each experiment answers is slightly different. BestWay answers: what does the full production implementation look like? navigator-backend answers: what does the cloud-native backend look like? anti-gravity answers: how far can you get with nothing?
+The question each experiment answers is slightly different. BestWay answers: what does the full production implementation look like? navigator-backend answers: what does the cloud-native backend look like? ZoneGuide answers: how far can you get with nothing?
 
 ## Technical Direction
 
