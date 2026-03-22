@@ -1,6 +1,6 @@
 # Navigator
 
-AI execution layer for software interfaces.
+AI execution layer for software interfaces — so anyone, human or agent, can operate any tool without needing to be technical.
 
 > Navigator is the thesis repo for **Navigator Lab**: a portfolio of products exploring UI perception, reasoning-state telemetry, autonomous execution, and culture-aware matching.
 
@@ -8,15 +8,36 @@ Navigator is a system for understanding live SaaS interfaces, retrieving the rig
 
 ## The Problem
 
-Most software is still operated manually, even when the workflow is repetitive and structurally obvious.
+Most software still requires you to know it — to have read the docs, attended the training, or built up the muscle memory. That's true for power users and non-technical users alike.
 
-Existing approaches fall short:
+The deeper problem: even people who know the tool spend 30–40% of their time on work that is repetitive, structurally obvious, and fully automatable. They just don't have infrastructure that can see the interface and act on it.
 
-- digital adoption platforms require manual authoring and constant maintenance
-- copilots explain what to do, but still leave the work to the user
-- generic RAG systems retrieve semantically similar text, not execution-useful workflow context
+This is sharpest in customer-facing teams — CSMs, AMs, Customer Engineers, Solutions Engineers — who operate 8–12 SaaS tools daily across Salesforce, HubSpot, Gong, Jira, Slack, Zoom, and Notion:
 
-Navigator is designed as a zero-config execution layer that works from the live UI outward.
+- updating CRM records after calls
+- drafting follow-up emails from Gong transcripts
+- chasing implementation blockers across Jira and Slack
+- preparing QBR decks from account health data
+- writing renewal risk notes, escalation briefs, and handoff summaries
+
+Existing approaches fall short: digital adoption platforms require manual authoring; copilots explain what to do but leave the work to the user; generic RAG retrieves similar text, not execution-ready workflow context.
+
+Navigator is designed as a zero-config execution layer that works from the live UI outward — for humans who need guidance and for agents that need to act.
+
+## Who It's For
+
+**Broad target**: Anyone — human or AI agent — that needs to operate software without being technical. Navigator reads the live interface, retrieves the right procedural context, and either guides the user or executes autonomously. The same infrastructure works for a non-technical CSM navigating HubSpot and for an AI agent executing a renewal workflow end-to-end.
+
+**Current wedge**: Customer-facing revenue and service teams — the people who operate the most SaaS tools daily and do the most repetitive high-context work:
+
+| Role | What They Repeat |
+|---|---|
+| Customer Success Manager | QBR prep, health score updates, renewal risk notes, escalation briefs |
+| Account Manager | Follow-up sequencing, opportunity hygiene, executive touchpoints |
+| Customer Engineer | Implementation status reports, blocker tracking, technical handoff notes |
+| Solutions Engineer | Discovery summaries, demo follow-ups, solution briefs |
+
+The automation target isn't "replace the person." It's eliminate the structured, tool-mediated work that doesn't require judgment — so the person (or agent) can focus on what does.
 
 ## System Shape
 
