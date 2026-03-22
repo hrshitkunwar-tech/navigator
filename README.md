@@ -57,18 +57,17 @@ The current public work proves the earliest part of the thesis:
 
 - ScreenSense-style perception work exists and has been tested in isolation
 - architecture, benchmarks, and technical decisions are documented in detail
-- three public experiments demonstrate different layers of the system
+- two public experiments demonstrate different layers of the system
 
 This repository is the dedicated home for the flagship architecture and docs layer.
 
 ## Running Today
 
-Three public experiments prove different layers of the thesis:
+Two public experiments prove different layers of the thesis:
 
 | Experiment | What it proves | Repo |
 |---|---|---|
 | [VisionGuide](https://github.com/hrshitkunwar-tech/VisionGuide) | Screenshot → Gemini → real-time guidance overlay | Perception layer |
-| [ZoneGuide](https://github.com/hrshitkunwar-tech/zoneguide) | DOM recording → replay, zero tooling | Recording + replay |
 | [job](https://github.com/hrshitkunwar-tech/job) | Scoring → tailoring → auto-apply | Applied execution |
 
 ## Backend Experiments
@@ -79,7 +78,7 @@ Three parallel approaches to the Navigator thesis. Same problem, different imple
 |---|---|---|
 | **BestWay** (private) | Chrome MV3 · TypeScript monorepo · ScreenSense perception | TypeScript · Vitest · Zod · Chrome APIs |
 | **navigator-backend** (private) | Convex serverless · CLaRa bench · AppIdeasLab | Convex · TypeScript |
-| [**ZoneGuide**](https://github.com/hrshitkunwar-tech/zoneguide) | Zero tooling — raw browser APIs | vanilla JS · HTML · CSS · Chrome MV3 |
+| **ZoneGuide** (private) | Zero tooling — raw browser APIs | vanilla JS · HTML · CSS · Chrome MV3 |
 
 The question each experiment answers is slightly different. BestWay answers: what does the full production implementation look like? navigator-backend answers: what does the cloud-native backend look like? ZoneGuide answers: how far can you get with nothing?
 
@@ -112,7 +111,7 @@ navigator/
 1. [Architecture](./docs/ARCHITECTURE.md)
 2. [Technical Decisions](./docs/TECHNICAL_DECISIONS.md)
 3. [Benchmarks](./docs/BENCHMARKS.md)
-4. Then the live experiments: [VisionGuide](https://github.com/hrshitkunwar-tech/VisionGuide) → [ZoneGuide](https://github.com/hrshitkunwar-tech/zoneguide) → [job](https://github.com/hrshitkunwar-tech/job)
+4. Then the live experiments: [VisionGuide](https://github.com/hrshitkunwar-tech/VisionGuide) → [job](https://github.com/hrshitkunwar-tech/job)
 
 ## Why This Repo Matters
 
@@ -124,6 +123,5 @@ This repo is the clearest expression of the long-term thesis behind the wider pr
 |---|---|---|
 | [navigator](https://github.com/hrshitkunwar-tech/navigator) | Thesis | 5-layer architecture for AI execution on software interfaces |
 | [VisionGuide](https://github.com/hrshitkunwar-tech/VisionGuide) | Perception | Screenshot → Gemini vision → real-time UI guidance |
-| [zoneguide](https://github.com/hrshitkunwar-tech/zoneguide) | Recording | DOM interaction capture and replay, zero dependencies |
 | [job](https://github.com/hrshitkunwar-tech/job) | Applied | CareerAgent: score → tailor → apply, local-first |
 | [saas-atlas](https://github.com/hrshitkunwar-tech/saas-atlas) | Data | Searchable directory of 200+ SaaS tools |
