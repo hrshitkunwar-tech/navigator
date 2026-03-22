@@ -68,10 +68,11 @@ navigator/
 │   ├── ARCHITECTURE.md
 │   ├── TECHNICAL_DECISIONS.md
 │   └── BENCHMARKS.md
+├── implementation/     ← git submodule → BestWay (private)
 └── README.md
 ```
 
-As implementation expands, this repo is intended to hold the canonical public version of the Navigator system.
+`implementation/` points to the private BestWay monorepo — the running Navigator system (ScreenSense, Chrome MV3 extension, CLaRa retrieval layer, Convex backend). Open thesis, private code.
 
 ## Reading Order
 
